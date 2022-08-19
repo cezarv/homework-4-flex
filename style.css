@@ -1,0 +1,257 @@
+/* general styling  */
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+  
+  header {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  background-image: url(./images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+   /* Add the blur effect */
+   /* filter: blur(1px);
+   -webkit-filter: blur(1px); */
+}
+ 
+
+
+header {
+    background-image: url(./images/header.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.header-h1 {
+   
+    margin-top: 100px;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding: auto;
+}
+
+.header-paragraph {
+    
+    margin-top: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.header-button {
+    margin-top: -21px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    margin-bottom: 120px;
+    padding: auto;
+    background-color: black; 
+    color:white;
+    outline:none;  
+}
+
+.section-development {
+    display: flex;
+    flex-direction: column;
+  align-items:center;
+    min-height: 300px;
+    background-color: white;
+}
+
+.section-development-header {
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.section-development-paragraph {
+    margin-top: 20px;
+    font-size: 18px;
+    padding: auto;
+    line-height: 0.5;
+}
+
+
+/* three-cards styling */
+
+.three-cards {
+    display: flex;
+   flex-wrap: wrap;
+   background-color: #333333;
+   align-items: center;
+   row-gap: 10px;
+   padding-top:50px;
+   padding-bottom:50px;
+   justify-content: center;
+   width: 100%;
+  height: 150vh;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.card {
+    flex: 1 2 30%;
+    box-sizing: border-box;
+    margin: 1rem .25rem;
+    margin-left: 2%;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-height: 100vh;
+    display: inline-block;
+}
+
+
+.card h4, p{
+    padding: 10px;
+}
+
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card-paragraph {
+    text-align: center;
+}
+
+
+
+.digital-needs {
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items:center;
+  background-color:white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 250px;
+}
+
+
+
+.digital-needs-h3 {
+   
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding: auto;
+}
+
+.digital-needs-p {
+    
+    margin-top: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+} */
+
+
+
+/* Styling Contact and About */
+
+.wrapper-contact-about {
+    margin: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 100px;
+    padding: 20px;
+    padding-top: 50px;
+    color: white;
+    background-color: #2690d4;
+    width: 100vw;
+    min-height: 250px;
+    text-align: center;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 100px;
+    padding: 20px;
+    padding-top: 50px;
+    color: white;
+    background-color: #333333;
+    min-height: 250px;
+    text-align: center;
+  }
+  
+  .contact-h2, .about-h2 {
+font-size: 20px;
+font-weight: bold;
+  }
+
+
+  /* Styling footer */
+
+  .wrapper-footer {
+    margin: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .footer-text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+    padding: 20px;
+    padding-top: 50px;
+    color: white;
+    background-color: #000000;
+    background-size: auto;
+    min-height: 50px;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    margin: -50px;
+  }
+  
+  .footer-text-travesty {
+    display: block;
+  }
